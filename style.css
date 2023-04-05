@@ -1,0 +1,123 @@
+header {
+    height: 970px;
+    background-image: url(https://images.unsplash.com/photo-1454537468202-b7ff71d51c2e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80);
+    background-size: cover;
+}
+
+body{
+    background-color:azure;
+}
+
+#header ul li a {
+    color: #000000A6;
+}
+
+#header ul li a:hover{
+    color: #B4CDED;
+}
+
+#heading{
+    font-family: 'Playfair Display', serif;
+}
+
+h3, h5{
+    font-family: 'Labrada', serif;
+}
+
+#content{
+    font-family: 'Courgette', cursive;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+#time{
+    text-align: justify;
+}
+
+#budget{
+    text-align: justify;
+}
+
+#contact{
+    background-color: #0D1821;
+    color: aliceblue;
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 200px;
+}
+
+.iconDiv{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border:1px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.icon i{
+    font-size: 25px;
+}
+
+#icon1:hover {
+    background-image: linear-gradient(#1876f3, #1876f3);
+    color: aliceblue;
+}
+
+#icon2:hover {
+    background-image: linear-gradient(#9a30ab, #9a30ab);
+    color: aliceblue;
+}
+
+#icon3:hover {
+    background-image: linear-gradient(#1da0f2, #1da0f2);
+    color: aliceblue;
+}
+
+#icon4:hover {
+    background-image: linear-gradient(#cd2027, #cd2027);
+    color: aliceblue;
+}
+
+#icon5:hover {
+    background-image: linear-gradient(#56cd63, #56cd63);
+    color: aliceblue;
+}
+
+.icon a i {
+    color: aliceblue;
+}
+
+.icon a i:hover {
+    color: whitesmoke;
+}
+
+.name{
+    color: #8FB8DE;
+}
+
+.up-arrow{
+    margin: 1rem 2rem;
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3F6634;
+}
